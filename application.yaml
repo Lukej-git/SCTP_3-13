@@ -7,7 +7,7 @@ spec:
   source:
     repoURL: "https://github.com/Lukej-git/SCTP_3-13.git"
     targetRevision: main
-    path: /mnt/c/Users/user/Documents/Github/SCTP_3-13
+    path: <path_to_manifest_directory>
   destination:
     server: https://kubernetes.default.svc
     namespace: luke-argo
