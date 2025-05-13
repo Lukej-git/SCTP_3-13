@@ -10,7 +10,7 @@ spec:
     path: <path_to_manifest_directory>
   destination:
     server: https://kubernetes.default.svc
-    namespace: luke-argo
+    namespace: luke-ns
   syncPolicy:
     syncOptions:
       - CreateNamespace=true

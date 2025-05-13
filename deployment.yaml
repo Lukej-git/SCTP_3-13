@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: luke-echo-app
-  namespace: luke-argo
+  namespace: luke-ns
 spec:
   replicas: 1
   selector:

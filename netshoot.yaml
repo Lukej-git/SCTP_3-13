@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: netshoot
-  namespace: luke-argo
+  namespace: luke-ns
 spec:
   containers:
     - name: netshoot
