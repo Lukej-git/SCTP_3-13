@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: echo-app
+  name: luke-app
 spec:
   project: default
   source:
