@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: echo-app
+spec:
+  project: default
+  source:
+    repoURL: "https://github.com/Lukej-git/SCTP_3-13.git"
+    targetRevision: main
+    path: /mnt/c/Users/user/Documents/Github/SCTP_3-13
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: luke-argo
+  syncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      prune: true
+      selfHeal: true
